@@ -1,0 +1,17 @@
+[project]
+name = "{{cookiecutter.package_name}}"
+version = "{{cookiecutter.version}}"
+description = "{{cookiecutter.description}}"
+readme = "README.md"
+authors = [
+    { name = "{{cookiecutter.user_name}}", email = "{{cookiecutter.user_email}}" }
+]
+requires-python = ">={{cookiecutter.python_version}}"
+dependencies = [ "loguru>=0.7.3"]
+
+[project.scripts]
+{{cookiecutter.package_name}}= "{{cookiecutter.package_name}}.scripts:main"
+
+[build-system]
+requires = ["uv_build>=0.11.8,<0.12.0"]
+build-backend = "uv_build"

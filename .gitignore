@@ -153,10 +153,10 @@ activemq-data/
 .env
 .envrc
 .venv
-env/
+#env/
 venv/
 ENV/
-env.bak/
+#env.bak/
 venv.bak/
 
 # Spyder project settings
@@ -204,6 +204,12 @@ cython_debug/
 # .vscode/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
+
+# Local datasets, model outputs, and predictions
+artifacts/
+predictions.csv
+data/*.csv
+!data/.gitkeep
 
 # Ruff stuff:
 .ruff_cache/
