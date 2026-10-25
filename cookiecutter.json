@@ -1,6 +1,6 @@
 {
     "project_name": "Your Project Name",
-    "project_package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "python_version": "3.12",
     "project_description": "A short description of your project.",
     "user_name": "Your Name",

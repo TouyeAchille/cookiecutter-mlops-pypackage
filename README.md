@@ -17,4 +17,4 @@ uvx cookiecutter .
 
 ## Template maintenance
 
-Update the files under `{{cookiecutter.project_package_name}}/` when changing the generated project structure. Update `cookiecutter.json` when adding or changing prompts.
+Update the files under `{{cookiecutter.package_name}}/` when changing the generated project structure. Update `cookiecutter.json` when adding or changing prompts.
