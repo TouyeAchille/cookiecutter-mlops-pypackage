@@ -1,8 +1,3 @@
----
-noteId: "c3ce2de0d1ae11f1a8d84fc388289bff"
-tags: []
-
----
 
 # MLOps Python package template
 
