@@ -7,7 +7,12 @@ authors = [
     { name = "{{cookiecutter.user_name}}", email = "{{cookiecutter.user_email}}" }
 ]
 requires-python = ">={{cookiecutter.python_version}}"
-dependencies = [ "loguru>=0.7.3"]
+dependencies = [
+    "joblib>=1.4.0",
+    "loguru>=0.7.3",
+    "pandas>=2.2.0",
+    "scikit-learn>=1.5.0",
+]
 
 [project.scripts]
 {{cookiecutter.package_name}}= "{{cookiecutter.package_name}}.scripts:main"
